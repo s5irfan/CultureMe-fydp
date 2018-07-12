@@ -24,15 +24,16 @@
         <div id = "signIn" class="modal">
                 <div id='Blockchain' class='BCcontent'>
                 <div class="fields1-group">
+                        <span class="close" onclick="span()">&times; </span>
                         <p> Sign In</p>
                         <input class='field' id = 'userName'type = 'text' name='userName' placeholder = 'Username'><br>
                         <input class='field' id = 'password'type = 'text' name='password' placeholder = 'Password'><br>
                         <input class = 'submitBtn' type= 'submit' value= 'Sign In'><br>
                         <u> Forgot Password?</u><br>
                         <p1>Don't have an account?</p1>
-                        <div onclick="signUp()">
-                        <u> Sign Up </u> 
-                        </div>
+                        
+                        <u id="signUpTxt" onclick="signInsignUp()"> Sign Up </u> 
+                        
                 </div>  
                 </div>                
         </div>  
@@ -40,15 +41,16 @@
         <div id = "signUp" class="modal">
                         <div id='Blockchain' class='BCcontent'>
                         <div class="fields1-group">
+                                <span class="close" onclick="span()">&times; </span>
                                 <p> Sign Up</p>
                                 <input class='field' id = 'userName'type = 'text' name='userName' placeholder = 'Username'><br>
                                 <input class='field' id = 'password'type = 'text' name='password' placeholder = 'Password'><br>
                                 <input class = 'submitBtn' type= 'submit' value= 'Sign Up'><br>
                                 <u> Forgot Password?</u><br>
                                 <p1>Already have an account?</p1>
-                                <div onclick="signIn1()">
-                                <u> Sign In</u> 
-                                </div>   
+                                
+                                <u id="signInTxt" onclick="signInsignUp()"> Sign In</u> 
+                                
                         </div>  
                         </div> 
                 </div>  
