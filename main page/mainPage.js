@@ -12,12 +12,6 @@ function signIn() {
     }
 }
 
-
-function signIn1() {
-    document.getElementById("signUp").display = "none";
-    document.getElementById("signIn").click();
-}
-
 function signUp() {
     var y = document.getElementById("signUp");
     if (y.style.display === "block") {
@@ -25,6 +19,23 @@ function signUp() {
     } else {
         y.style.display = "block";
     }
+}
+
+function signInsignUp() {
+    var x = document.getElementById("signIn");
+    var y = document.getElementById("signUp");
+    if (y.style.display === "block") {
+        y.style.display = "none";
+        x.style.display = "block"
+    } else {
+        y.style.display = "block";
+    }
+    
+}
+
+function span() {
+    document.getElementById('signIn').style.display = "none";
+    document.getElementById('signUp').style.display = "none";
 }
 
 var myIndex = 0;
