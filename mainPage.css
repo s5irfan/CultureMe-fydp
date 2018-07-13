@@ -48,11 +48,11 @@ div[class='fields1-group'] {
     padding: 5px;
     text-align: center;
     margin: auto;
-    width: 80%;
+    width: 90%;
 }
 
 input[type=text] {
-    width: 40%;
+    width: 50%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -89,11 +89,9 @@ input[type=text] {
 
 
 .container .signInBtn {
-    position: absolute;
-    top: 5%;
-    right: 0;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+    float:right;
+    transform: translate(-80%, -1400%);
+    -ms-transform: translate(-80%, -1400%);
     background-color: #555;
     color: white;
     font-size: 16px;
@@ -108,11 +106,9 @@ input[type=text] {
   }
   
   .container .signUpBtn {
-    position: absolute;
-    top: 5%;
-    right: 7%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+    float: right;
+    transform: translate(-80%, -1400%);
+    -ms-transform: translate(-60%, -1400%);
     background-color: #555;
     color: white;
     font-size: 16px;
@@ -174,7 +170,49 @@ input[type=text] {
     cursor: pointer;
 }
 
-
+/* search bar */
+.search {
+    width: 100%;
+    position: relative;
+  }
+  
+  .searchTerm {
+    float: left;
+    width: 100%;
+    border: 3px solid #00B4CC;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px;
+    outline: none;
+    color: #9DBFAF;
+  }
+  
+  .searchTerm:focus{
+    color: #00B4CC;
+  }
+  
+  .searchButton {
+    position: absolute;  
+    right: -50px;
+    width: 40px;
+    height: 36px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /*Resize the wrap to see the search bar change!*/
+  .wrap{
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 
 
 
