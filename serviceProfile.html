@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="./mainPage.css" type="text/css" rel="stylesheet">
+        <link rel="import" href="./login.html"> 
+<style>
+
+.card {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 30px;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    position: absolute;
+    left: 400px;
+    top: 550px;
+    width: 100px;
+    height: 100px
+
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 35px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+h1{
+margin: 0 30px 
+}
+
+
+</style>
+</head>
+<body>
+
+            <div class="navbar">
+                        <a href="#home">Notifications</a>
+                        <div class="dropdown">
+                                <button class="dropbtn">Profile
+                                <i class="fa fa-caret-down"></i>
+                                </button>
+                        <div class="dropdown-content">
+                                <a href="#">Personal Information</a>
+                                <a href="#">History</a>
+                                <a href="#">Switch to Service Provider</a>
+                                <a href="#">Sign Out</a>
+                        </div>
+                        </div> 
+                </div>
+
+<div class = "table", style="width:60%">
+<table style="width:60%">
+<caption>Reviews of Service Provider</caption>
+  <tr>
+    <th>Username</th>
+    <th>Date</th> 
+    <th>Review</th>
+  </tr>
+  <tr>
+    <td>Bumblebee1993</td>
+    <td>June 10 2017</td> 
+    <td>She's really professional, worth the cost!</td>
+  </tr>
+  <tr>
+    <td>Bluejay9023</td>
+    <td>June 20 2017</td> 
+    <td>My third time requesting her services, she's great. Would reccom,mmmend!</td>
+    
+  </tr>
+  
+</table>
+</div>
+
+<br>      
+
+<div class="card">
+    <img src="Hayat.jpg" alt="Hayat" style="width:100%">
+    <h1>Hayat  Khan</h1>
+    <p class="title">Senior Stylist and Owner</p>
+    <p> Kabuli Salon</p>
+  <div style="margin: 5px 0;">
+    <a href="#"><i class="fa fa-twitter"></i></a>  
+    <a href="#"><i class="fa fa-facebook"></i></a> 
+ </div>
+<p><button>Contact</button></p>
+</div>
+
+<h1>Portfolio</h1>
+
+<div class="row">
+  <div class="column">
+    <img src="henna2.jpg" alt="Snow" width = "450" and height ="450">
+  </div>
+  <div class="column">
+    <img src="bridal2.jpg" alt="Forest" width = "450" and height ="450">
+  </div>
+  <div class="column">
+    <img src="bridal3.jpg" alt="Mountains" width = "450" and height ="450">
+  </div>
+</div>
+
+</body>
+</html>
