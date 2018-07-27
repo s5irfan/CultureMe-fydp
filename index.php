@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+
+<?php include 'db-connection.php';?>
 <html>
 	<head>
         <title> CultureMe</title>
@@ -71,4 +73,24 @@
 
 
 	</body>
+
+
+
+
+
+
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
